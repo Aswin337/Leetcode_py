@@ -18,11 +18,11 @@ class sol:
 nums=[1,2,3,4,5,4]
 s=sol(nums)
 r=s.counter()
-print(r)
+print("answer:",r)
 
 
 #counter :
-num="1,2,3,2,3,7"
+num="1,2,3,2,3,7,2"
 freq=Counter(num.split(","))
 print(freq)
 for count in freq.values():
